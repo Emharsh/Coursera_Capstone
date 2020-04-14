@@ -1,6 +1,8 @@
 # Coursera_Capstone
-IBM - Applied Data Science Capstone
-Project1
+
+# IBM - Applied Data Science Capstone
+
+## Project1
 Build the code to scrape the following Wikipedia page, https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M, in order to obtain the data that is in the table of postal codes and to transform the data into a pandas dataframe.
 
 To create the dataframe:
@@ -17,7 +19,7 @@ Clean your Notebook and add Markdown cells to explain your work and any assumpti
 
 Use the .shape method to print the number of rows of your dataframe.
 
-Project2
+## Project2
 Build a dataframe of the postal code of each neighborhood along with the borough name and neighborhood name, in order to utilize the Foursquare location data, we need to get the latitude and the longitude coordinates of each neighborhood.
 
 We will use the Geocoder Python package instead: https://geocoder.readthedocs.io/index.html.
@@ -26,6 +28,6 @@ The problem with this Package is you have to be persistent sometimes in order to
 
 Given that this package can be very unreliable, in case you are not able to get the geographical coordinates of the neighborhoods using the Geocoder package, here is a link to a csv file that has the geographical coordinates of each postal code: http://cocl.us/Geospatial_data
 
-Project3
+## Project3
 Explore and cluster the neighborhoods in Toronto. You can decide to work with only boroughs that contain the word Toronto
 
