@@ -6,11 +6,17 @@ Build the code to scrape the following Wikipedia page, https://en.wikipedia.org/
 To create the dataframe:
 
 The dataframe will consist of three columns: PostalCode, Borough, and Neighborhood.
+
 Only process the cells that have an assigned borough. Ignore cells with a borough that is Not assigned.
+
 More than one neighborhood can exist in one postal code area. For example, in the table on the Wikipedia page, you will notice that M5A is listed twice and has two neighborhoods: Harbourfront and Regent Park. These two rows will be combined into one row with the neighborhoods separated with a comma as shown in row 11 in the above table.
+
 If a cell has a borough but a Not assigned neighborhood, then the neighborhood will be the same as the borough.
+
 Clean your Notebook and add Markdown cells to explain your work and any assumptions you are making.
+
 Use the .shape method to print the number of rows of your dataframe.
+
 Project2
 Build a dataframe of the postal code of each neighborhood along with the borough name and neighborhood name, in order to utilize the Foursquare location data, we need to get the latitude and the longitude coordinates of each neighborhood.
 
